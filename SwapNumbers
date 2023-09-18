@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SwapNumber
+{
+    //Swap Two numbers without using third variable in C#
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a = 10, b = 20;
+            a = a + b; //30
+            b = a - b; //30-20 = 10;
+            a = a - b; //30-10 = 20;
+            Console.WriteLine("Swapped Number a = {0} and b = {1}" a , b);
+            Console.ReadLine();
+
+        }
+    }
+}
